@@ -270,6 +270,9 @@
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
   }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
+  }
   .-left-6 {
     left: calc(var(--spacing) * -6);
   }
@@ -284,6 +287,9 @@
   }
   .left-10 {
     left: calc(var(--spacing) * 10);
+  }
+  .left-20 {
+    left: calc(var(--spacing) * 20);
   }
   .z-21 {
     z-index: 21;
@@ -1259,6 +1265,16 @@
   .sm\:px-16 {
     @media (width >= 40rem) {
       padding-inline: calc(var(--spacing) * 16);
+    }
+  }
+  .md\:bottom-10 {
+    @media (width >= 48rem) {
+      bottom: calc(var(--spacing) * 10);
+    }
+  }
+  .md\:left-10 {
+    @media (width >= 48rem) {
+      left: calc(var(--spacing) * 10);
     }
   }
   .md\:grid-cols-2 {
