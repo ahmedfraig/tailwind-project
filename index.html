@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalPro</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="bg-white shadow-lg sticky top-0 z-999">
+        <div class="xl:container mx-auto">
+            <div class="flex justify-between items-center min-h-16 px-4 sm:px-8 lg:px-16">
+                <div class="flex items-center order-1 space-x-2">
+                    <span class="text-3xl font-bold text-blue-600">
+                        DigitalPro
+                    </span>
+                    <span
+                        class="px-2 py-1 text-blue-600 bg-blue-100 text-xs rounded-full hidden min-[575px]:inline-block min-[899px]:hidden min-[1200px]:inline-block">
+                        marketing agency
+                    </span>
+                </div>
+                <div class="space-x-8 text-[17px] font-medium hidden min-[950px]:block order-2">
+                    <a href="" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="" class="text-gray-700 hover:text-blue-600 transition">Our Work</a>
+                    <a href="" class="text-gray-700 hover:text-blue-600 transition">Our Team</a>
+                    <a href="" class="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
+                </div>
+                <div class="order-3 flex items-center space-x-4">
+                    <button
+                        class="py-3 px-6 font-medium bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-xl">Get
+                        a Consultation</button>
+                    <button id="menu-button"
+                        class="min-[950px]:hidden hover:text-white hover:bg-gray-700 rounded-full p-2 transition-all duration-300"
+                        aria-controls="menu-div" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden min-[950px]:hidden space-y-4 flex flex-col justify-center items-center text-[17px] font-medium pb-4"
+                id="menu-div">
+                <a href="" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                <a href="" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                <a href="" class="text-gray-700 hover:text-blue-600 transition">Our Work</a>
+                <a href="" class="text-gray-700 hover:text-blue-600 transition">Our Team</a>
+                <a href="" class="text-gray-700 hover:text-blue-600 transition">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-linear-to-br from-blue-50 via-white to-purple-50">
+        <div class="xl:container mx-auto">
+            <div
+                class="min-h-screen flex flex-col py-25 min-[1177px]:pt-0 min-[1177px]:flex-row justify-center items-center px-6 gap-12">
+                <div class="flex flex-col space-y-8 flex-1">
+                    <h1 class="font-bold text-4xl md:text-6xl leading-tight">We Create <span
+                            class="text-blue-600">Digital
+                            Success </span>for Your Brand</h1>
+                    <p class="text-xl leading-relaxed text-gray-600">
+                        We provide integrated marketing solutions that help your company grow and increase sales through
+                        innovative strategies.
+                    </p>
+                    <div class="flex gap-9 justify-center">
+                        <div class="flex gap-2">
+                            <div class="bg-green-500 rounded-full size-6 flex justify-center items-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span>10+ Years Experience</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="bg-green-500 rounded-full size-6 flex justify-center items-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span>+500 Clients</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="bg-green-500 rounded-full size-6 flex justify-center items-center">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <span>Professional Team</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 flex-wrap">
+                        <button
+                            class="px-8 py-4 hover:cursor-pointer bg-blue-600 text-white text-lg font-medium rounded-xl hover:bg-blue-700 shadow-lg hover:shadow-2xl focus:ring-4 focus:ring-blue-300 transition-all duration-300">Start
+                            Your Journey Now</button>
+                        <button
+                            class="px-8 py-4 hover:cursor-pointer hover:text-blue-600 border-2 text-gray-700 border-gray-300 hover:border-blue-600 text-lg rounded-xl transition-all duration-300 font-medium">
+                            <i class="fas fa-play"></i>
+                            <span>Watch the Video</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex-1 w-full px-16 min-[1177px]:px-0 min-[1177px]:w-min">
+                    <div class="relative max-w h-96 bg-linear-to-br from-blue-400 to-purple-400 rounded-2xl shadow-2xl">
+                        <div class="absolute left-10 bottom-10 size-32 bg-white/20 backdrop-blur rounded-full "></div>
+                        <div class="absolute right-10 top-10 size-20 bg-white/20 backdrop-blur rounded-full "></div>
+                        <div class="absolute top-1/2 left-1/2 -translate-1/2">
+                            <i class="fas fa-chart-line text-white/50 text-8xl"></i>
+                        </div>
+
+                        <div class="flex gap-2 p-4 bg-white rounded-2xl absolute -bottom-6 -left-6 shadow-xl">
+                            <div class="size-12 rounded-full bg-green-100 flex justify-center items-center">
+                                <i class="fas fa-users text-green-600 text-xl"></i>
+                            </div>
+
+                            <div>
+                                <p class="text-sm text-gray-500">Happy Clients</p>
+                                <p class="text-2xl font-bold text-gray-800">+500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center mb-16 space-y-4 px-4">
+                <p class="text-4xl font-bold text-gray-900">Our Integrated Services</p>
+                <p class="max-w-2xl text-xl text-gray-600 text-center">We offer a comprehensive range of digital
+                    solutions
+                    to grow your business.</p>
+                <div class="h-1 w-24 rounded-full bg-blue-600"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-[525px]:px-8 sm:px-16 md:px-0">
+                <div
+                    class="space-y-4 p-8 rounded-2xl bg-white border border-gray-200 hover:border-blue-600 hover:shadow-2xl transition-all duration-300 group">
+                    <div
+                        class="size-16 rounded-xl bg-blue-100 group-hover:bg-blue-600 transition-all flex justify-center items-center">
+                        <i class="fas fa-chart-line text-3xl text-blue-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h2 class="font-bold text-2xl">Search Engine Optimization</h2>
+                    <p class="text-gray-600 leading-relaxed">We ensure your website appears on the first pages of search
+                        engines and increases qualified visitors.
+                    </p>
+                    <div class="space-y-2 text-gray-600">
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Keyword
+                                Analysis</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Content
+                                Optimization</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Link
+                                Building</span></p>
+                    </div>
+                </div>
+
+                <div
+                    class="space-y-4 p-8 rounded-2xl bg-white border border-gray-200 hover:border-purple-600 hover:shadow-2xl transition-all duration-300 group">
+                    <div
+                        class="size-16 rounded-xl bg-purple-100 group-hover:bg-purple-600 transition-all flex justify-center items-center">
+                        <i class="fab fa-facebook text-3xl text-purple-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h2 class="font-bold text-2xl">Social Media Marketing</h2>
+                    <p class="text-gray-600 leading-relaxed">We manage your advertising campaigns on Facebook and
+                        Instagram
+                        with high professionalism.
+                    </p>
+                    <div class="space-y-2 text-gray-600">
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>
+                                Precise Targeting</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Results
+                                Analysis</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Campaign
+                                Optimization</span></p>
+                    </div>
+                </div>
+
+                <div
+                    class="space-y-4 p-8 rounded-2xl bg-white border border-gray-200 hover:border-green-600 hover:shadow-2xl transition-all duration-300 group">
+                    <div
+                        class="size-16 rounded-xl bg-green-100 group-hover:bg-green-600 transition-all flex justify-center items-center">
+                        <i class="fas fa-code text-3xl text-green-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h2 class="font-bold text-2xl">Website Design & Development</h2>
+                    <p class="text-gray-600 leading-relaxed">We design professional websites that are compatible with
+                        all
+                        devices.
+                    </p>
+                    <div class="space-y-2 text-gray-600">
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>Responsive
+                                Design</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>High
+                                Speed</span></p>
+                        <p class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i><span>
+                                Easy Management</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-linear-to-r from-blue-600 to-purple-600 relative overflow-hidden">
+        <div class="xl:container mx-auto">
+            <div class="flex justify-around gap-8 flex-wrap px-16 relative z-21">
+                <div class="text-white text-center">
+                    <div class="font-bold mb-2 text-6xl">+500</div>
+                    <div class="text-blue-100 text-xl">Clients Worldwide</div>
+                </div>
+
+                <div class="text-white text-center">
+                    <div class="font-bold mb-2 text-6xl">+1000</div>
+                    <div class="text-blue-100 text-xl">Projects Completed</div>
+                </div>
+
+                <div class="text-white text-center">
+                    <div class="font-bold mb-2 text-6xl">+50</div>
+                    <div class="text-blue-100 text-xl">Marketing Experts</div>
+                </div>
+
+                <div class="text-white text-center">
+                    <div class="font-bold mb-2 text-6xl">+10</div>
+                    <div class="text-blue-100 text-xl">Years of Experience</div>
+                </div>
+            </div>
+            <div class="absolute size-64 rounded-full top-0 left-0 -translate-1/2 bg-white/10 backdrop-blur-sm"></div>
+            <div class="absolute size-96 rounded-full bottom-0 right-0 translate-1/2 bg-white/10 backdrop-blur-sm">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-12 bg-gray-50">
+        <div class="xl:container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-bold text-4xl mb-3">Our Creative Team</h2>
+                <p class="text-xl text-gray-600">An elite group of the best digital marketing experts.</p>
+            </div>
+            <div class="grid grid-cols-1 min-[776px]:grid-cols-2 gap-8 min-[1255px]:grid-cols-4 sm:px-16 md:px-0">
+                <div class="rounded-3xl bg-white shadow-lg hover:shadow-2xl overflow-hidden transition group">
+                    <div class="h-64 relative overflow-hidden">
+                        <div
+                            class="size-full bg-linear-to-br from-blue-400 to-purple-400 flex justify-center items-center">
+                            <i class="fas fa-user-circle text-8xl text-white"></i>
+                        </div>
+                        <div
+                            class="absolute bg-blue-600/80 inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center gap-4 transition-all duration-300">
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-blue-600 hover:bg-linear-to-br from-purple-400 to-blue-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-blue-600 hover:bg-linear-to-br from-purple-400 to-blue-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-blue-600 hover:bg-linear-to-br from-purple-400 to-blue-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-8">
+                        <h2 class="text-xl font-bold">Ahmed Mohamed</h2>
+                        <p class="text-blue-600 mb-3">Marketing Director</p>
+                        <p class="text-gray-600 text-sm">10 years of experience in digital marketing</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl bg-white shadow-lg hover:shadow-2xl overflow-hidden transition group">
+                    <div class="h-64 relative overflow-hidden">
+                        <div
+                            class="size-full bg-linear-to-br from-purple-400 to-pink-400 flex justify-center items-center">
+                            <i class="fas fa-user-circle text-8xl text-white"></i>
+                        </div>
+                        <div
+                            class="absolute bg-purple-600/80 inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center gap-8 transition-all duration-300">
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-purple-600 hover:bg-linear-to-br from-pink-400 to-purple-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-purple-600 hover:bg-linear-to-br from-pink-400 to-purple-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-purple-600 hover:bg-linear-to-br from-pink-400 to-purple-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-8">
+                        <h2 class="text-xl font-bold">Sara Ahmed</h2>
+                        <p class="text-purple-600 mb-3">SEO Specialist</p>
+                        <p class="text-gray-600 text-sm">Specialized in search engine optimization</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl bg-white shadow-lg hover:shadow-2xl overflow-hidden transition group">
+                    <div class="h-64 relative overflow-hidden">
+                        <div
+                            class="size-full bg-linear-to-br from-green-400 to-blue-400 flex justify-center items-center">
+                            <i class="fas fa-user-circle text-8xl text-white"></i>
+                        </div>
+                        <div
+                            class="absolute bg-green-600/80 inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center gap-8 transition-all duration-300">
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-green-600 hover:bg-linear-to-br from-blue-400 to-green-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-green-600 hover:bg-linear-to-br from-blue-400 to-green-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-green-600 hover:bg-linear-to-br from-blue-400 to-green-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-8">
+                        <h2 class="text-xl font-bold">Mohamed Ali</h2>
+                        <p class="text-green-600 mb-3">Web Developer</p>
+                        <p class="text-gray-600 text-sm">Expert in web development</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl bg-white shadow-lg hover:shadow-2xl overflow-hidden transition group">
+                    <div class="h-64 relative overflow-hidden">
+                        <div
+                            class="size-full bg-linear-to-br from-yellow-400 to-orange-400 flex justify-center items-center">
+                            <i class="fas fa-user-circle text-8xl text-white"></i>
+                        </div>
+                        <div
+                            class="absolute bg-yellow-600/80 inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center gap-8 transition-all duration-300">
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-yellow-600 hover:bg-linear-to-br from-orange-400 to-yellow-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-yellow-600 hover:bg-linear-to-br from-orange-400 to-yellow-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#"
+                                class="size-10 rounded-full bg-white flex justify-center items-center text-yellow-600 hover:bg-linear-to-br from-orange-400 to-yellow-400 hover:text-white hover:shadow-lg"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-8">
+                        <h2 class="text-xl font-bold">Noura Khaled</h2>
+                        <p class="text-yellow-600 mb-3">Graphic Designer</p>
+                        <p class="text-gray-600 text-sm">Specialized in visual identity design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white">
+        <div class="container px-4 py-16 mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-gray-800 p-8 rounded-3xl">
+                    <h2 class="text-2xl font-bold mb-6">Contact Us</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <input type="text" placeholder="Full Name"
+                                class="bg-gray-700 p-4 border border-gray-600 placeholder-gray-400 rounded-lg text-white w-full focus:ring-4 focus:ring-gray-900 focus:outline-none transition">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Email Address"
+                                class="bg-gray-700 p-4 border border-gray-600 placeholder-gray-400 rounded-lg text-white w-full focus:ring-4 focus:ring-gray-900 focus:outline-none transition">
+                        </div>
+                        <div>
+                            <textarea rows="5" placeholder="Your message..."
+                                class="bg-gray-700 p-4 border border-gray-600 placeholder-gray-400 rounded-lg text-white w-full focus:ring-4 focus:ring-gray-900 focus:outline-none transition"></textarea>
+                        </div>
+                        <button class="bg-gray-900 text-white w-full hover:bg-gray-700 py-4 rounded-lg font-semibold transition-all duration-300
+                                       focus:ring-4 focus:ring-gray-900 text-xl">Send Message</button>
+                    </form>
+                </div>
+                <div class="space-y-8">
+                    <h2 class="text-2xl font-bold">Contact Us</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="size-12 bg-blue-600/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-blue-500 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-400">Address</p>
+                                <p class="font-medium">Cairo, Egypt</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="size-12 bg-blue-600/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-blue-500 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-400">Phone</p>
+                                <p class="font-medium">+201099635321</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="size-12 bg-blue-600/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-blue-500 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-400">Email</p>
+                                <p class="font-medium">info@digitalpro.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full h-48 bg-linear-to-br from-blue-900 to-purple-900 rounded-2xl overflow-hidden flex items-center justify-center text-gray-400 gap-2">
+                        <i class="fas fa-map text-4xl opacity-50"></i>
+                        <span>Site Map</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="container px-4 py-6 mx-auto">
+                <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
+                    <div>
+                        <p class="text-gray-400 text-sm">© 2024 DigitalPro. All rights reserved.</p>
+                    </div>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById("menu-button")
+        const menuDiv = document.getElementById("menu-div")
+        menuButton.addEventListener("click", () => {
+            menuDiv.classList.toggle('hidden')
+        })
+    </script>
+</body>
+
+</html>
